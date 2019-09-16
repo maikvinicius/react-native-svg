@@ -5,10 +5,10 @@ import _ from 'lodash';
 class Shape extends Component {
     constructor() {
         super(...arguments);
-        _.forEach(SvgTouchableMixin, (method, key) => {
-            this[key] = method.bind(this);
-        });
-        this.state = this.touchableGetInitialState();
+        // _.forEach(SvgTouchableMixin, (method, key) => {
+        //     this[key] = method.bind(this);
+        // });
+        // this.state = this.touchableGetInitialState();
     }
 }
 
